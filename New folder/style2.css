@@ -1,0 +1,72 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	background-color:  #89cff0;
+}
+form{
+	width: 370px;
+	height: 450px;
+	background: linear-gradient(45deg,transparent,#fff);
+	margin: 0px;
+	border-radius: 20px;
+	position: relative
+h2{
+	position: absolute;
+	top: 5px;
+	left: 115px;
+	color: #fff;
+}
+
+input[type="text"],input[type="email"]{
+	position: absolute;outline: none;
+	border: none;
+	width: 240px;
+	height: 45px;
+	border-radius:0 5px 5px 0;
+
+}
+
+input[type="text"]{
+	top: 70px;
+	left: 70px;
+
+}
+input[type="email"]{
+	top: 140px;
+	left: 70px;
+}
+textarea{
+	width: 240px;
+	height: 170px;
+	position: absolute;
+	top: 205px;
+	left: 68px;
+	outline: none;
+	border: none;
+	border-radius: 0 5px 5px 0;
+}
+input[value="send"]{
+	position: absolute;
+	top: 405px;
+	left: 127px;
+	outline: none;
+	border: none;
+	background: linear-gradient(#333,#222);
+	color: #fff;
+	width: 135px;
+	height: 35px;
+	border-radius: 0 5px 5px 0;
+	font-size: 25px;
+	}
+
+	input:focus{
+		color: 13bcf9;
+		box-shadow: 2px 2px 10px #13bcf9,- 2px- 2px 10px #fff;
+	}
+
+	input[value="send"]:hover{
+		color: 13bcf9;
+		background: #13bcf9;
+
+	}

@@ -1,0 +1,70 @@
+body{
+	background-color: #89cff0;
+	background-image: url('images/cat.png') widows: 90px;
+}
+h1{
+	color: #ddd; 
+}
+h2{
+	color:  #ddd;
+}
+
+body{
+	color:#fff; 
+	font-family: Arial;
+	font-size: 19px; 
+
+
+}
+div{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;width: 80;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #89cff0; /* Background color of the navbar */
+    overflow: hidden;
+}
+
+.navbar button {
+    background-color: #ddd; /* Background color of the buttons */
+    border: none;
+    color: black;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #555; /* Background color of the buttons on hover */
+    color: white;
+}
+
+/* Add animation to the buttons */
+.navbar button {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+*{
+	font-family: Arial;
+	color: black;
+}
